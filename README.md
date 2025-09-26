@@ -14,7 +14,9 @@ uv python install 3.12
 
 ## 2) 克隆仓库 // 直接下载可以忽略
 ```bash
-git clone https://github.com/silvery-feather/mcpserver_ask_Sw_0.1  
+git clone https://github.com/silvery-feather/mcpserver_ask_Sw_0.1
+```
+```bash
 cd mcpserver_ask_Sw_0.1
 ```
 ## 3) 设置 DashScope Key（仅本次终端会话）
@@ -44,6 +46,9 @@ uv python install 3.12
 ## 2) 克隆仓库
 ```bash
 git clone https://github.com/silvery-feather/mcpserver_ask_Sw_0.1
+```
+
+```bash
 cd mcpserver_ask_Sw_0.1
 ```
 ## 3) 设置 DashScope Key（仅当前窗口）
@@ -96,6 +101,7 @@ uv run --python 3.12 python main.py
 ```
 (注意！：如果你是直接下载的zip格式那么你的一级文件夹名可能会叫做“mcpserver_ask_Sw_0.1-main”,请注意识别)
 5.回到setting界面，看到添加的mcp显示绿色小点以及1 tool ennale 即可，注意，只能在agent模式下进行。
+
 
 
 
