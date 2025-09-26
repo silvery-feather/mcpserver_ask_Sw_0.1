@@ -101,7 +101,9 @@ uv run --python 3.12 python main.py
 
 
 
+## 如果你想要将该配置配置到trae中
 
+逻辑同上，json示例为通用格式
 
 
 
