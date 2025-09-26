@@ -70,13 +70,13 @@ uv run --python 3.12 python main.py
         "--with", "regex",
         "--with", "tqdm",
         "python",
-        "D:/mcpserver/main.py",
+        "你的前置文件路径/mcpserver_ask_Sw_0.1/main.py",
         "--auto"
       ],
       "env": {
         "DASHSCOPE_API_KEY": "YOUR_DASHSCOPE_KEY_HERE",
-        "INDEX_DIR": "D:/mcpserver/rag_cache/api_v1",
-        "DEFAULT_DOCS_ROOT": "D:/mcpserver/md"
+        "INDEX_DIR": "你的前置文件路径/mcpserver_ask_Sw_0.1/rag_cache/api_v1",
+        "DEFAULT_DOCS_ROOT": "你的前置文件路径/mcpserver_ask_Sw_0.1/md"
       }
     }
   }
@@ -84,6 +84,7 @@ uv run --python 3.12 python main.py
 ```
 
 5.回到setting界面，看到添加的mcp显示绿色小点以及1 tool ennale 即可，注意，只能在agent模式下进行。
+
 
 
 
