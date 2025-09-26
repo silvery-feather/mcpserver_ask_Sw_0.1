@@ -64,14 +64,11 @@ uv run --python 3.12 python main.py
 # 一些其他部分
 ## 如果你想要将该配置配置到cursor中
 
-1.打开cursor的 cursor setting
-
-2.在左侧列表找到mcp
-
-3.点击add new custom mcp server
-
-4.此时你会发现打开了一个叫做mcp.json的文件，直接复制粘贴即可
-### Cherry / MCP 配置示例（JSON）
+1.打开cursor的 cursor setting  
+2.在左侧列表找到mcp  
+3.点击add new custom mcp server  
+4.此时你会发现打开了一个叫做mcp.json的文件，直接复制粘贴即可  
+###  MCP 配置示例（JSON）
 
 ```json
 {
@@ -101,6 +98,7 @@ uv run --python 3.12 python main.py
 ```
 (注意！：如果你是直接下载的zip格式那么你的一级文件夹名可能会叫做“mcpserver_ask_Sw_0.1-main”,请注意识别)  
 5.回到setting界面，看到添加的mcp显示绿色小点以及1 tool ennale 即可，注意，只能在agent模式下进行。
+
 
 
 
