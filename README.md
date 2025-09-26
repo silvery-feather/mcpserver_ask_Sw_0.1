@@ -54,6 +54,9 @@ uv run --python 3.12 python main.py
 3.点击add new custom mcp server
 
 4.此时你会发现打开了一个叫做mcp.json的文件，直接复制粘贴即可
+### Cherry / MCP 配置示例（JSON）
+
+```json
 {
   "mcpServers": {
     "swanlab-docs": {
@@ -67,20 +70,22 @@ uv run --python 3.12 python main.py
         "--with", "regex",
         "--with", "tqdm",
         "python",
-        "你放置项目的路径前缀/mcpserver/main.py",
+        "D:/mcpserver/main.py",
         "--auto"
       ],
       "env": {
-        "DASHSCOPE_API_KEY": "你的key",
-        "INDEX_DIR": "你放置项目的路径前缀/mcpserver_ask_Sw_0.1-main/rag_cache/api_v1",
-        "DEFAULT_DOCS_ROOT": "你放置项目的路径前缀/mcpserver/md"
+        "DASHSCOPE_API_KEY": "YOUR_DASHSCOPE_KEY_HERE",
+        "INDEX_DIR": "D:/mcpserver/rag_cache/api_v1",
+        "DEFAULT_DOCS_ROOT": "D:/mcpserver/md"
       }
     }
   }
 }
+
 
 5.回到setting界面，看到添加的mcp显示绿色小店以及1 tool ennale 即可，注意，只能在agent模式下进行。
 
 
 
 #
+
