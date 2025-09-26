@@ -14,8 +14,9 @@ git clone https://github.com/silvery-feather/mcpserver_ask_Sw_0.1
 cd mcpserver_ask_Sw_0.1
 
 ## 3) 设置 DashScope Key（仅本次终端会话）
+```bash
 export DASHSCOPE_API_KEY=替换为你的Key
-
+```
 ## 4) 启动 MCP（stdio）
 ### --python 3.12：强制用上面装好的 3.12 运行时
 ### 首次运行会按 pyproject.toml 自动安装依赖（faiss/numpy 等）
@@ -84,6 +85,7 @@ uv run --python 3.12 python main.py
 ```
 (注意！：如果你是直接下载的zip格式那么你的一级文件夹名可能会叫做“mcpserver_ask_Sw_0.1-main”,请注意识别)
 5.回到setting界面，看到添加的mcp显示绿色小点以及1 tool ennale 即可，注意，只能在agent模式下进行。
+
 
 
 
