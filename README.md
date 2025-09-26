@@ -81,9 +81,10 @@ uv run --python 3.12 python main.py
     }
   }
 }
-
+```
 
 5.回到setting界面，看到添加的mcp显示绿色小点以及1 tool ennale 即可，注意，只能在agent模式下进行。
+
 
 
 
