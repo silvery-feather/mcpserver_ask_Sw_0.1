@@ -1,8 +1,10 @@
 
 # 如果您想要快捷部署。
 您可以使用docker,因为docker更支持sse的通信格式，所以部分代码以及内容会有所不同。  
-请您打开sse分支并下载相应工程：），相应的readme也在其中更新。
+请您打开sse分支并下载相应工程：），相应的readme也在其中更新。  
 
+
+# 非docker部署
 
 # macOS / Linux（终端 / VSCode 终端）
 
@@ -110,6 +112,7 @@ uv run --python 3.12 python main.py
 ## 如果你想要将该配置配置到trae中
 
 逻辑同上，json示例为通用格式
+
 
 
 
